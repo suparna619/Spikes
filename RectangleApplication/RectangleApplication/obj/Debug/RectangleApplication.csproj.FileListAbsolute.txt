@@ -1,0 +1,6 @@
+D:\visualStudio\RectangleApplication\RectangleApplication\bin\Debug\RectangleApplication.exe.config
+D:\visualStudio\RectangleApplication\RectangleApplication\bin\Debug\RectangleApplication.exe
+D:\visualStudio\RectangleApplication\RectangleApplication\bin\Debug\RectangleApplication.pdb
+D:\visualStudio\RectangleApplication\RectangleApplication\obj\Debug\RectangleApplication.csprojResolveAssemblyReference.cache
+D:\visualStudio\RectangleApplication\RectangleApplication\obj\Debug\RectangleApplication.exe
+D:\visualStudio\RectangleApplication\RectangleApplication\obj\Debug\RectangleApplication.pdb

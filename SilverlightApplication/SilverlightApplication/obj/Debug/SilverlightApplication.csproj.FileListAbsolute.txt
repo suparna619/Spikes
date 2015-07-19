@@ -1,0 +1,13 @@
+D:\visualStudio\SilverlightApplication\SilverlightApplication\Bin\Debug\SilverlightApplication.dll
+D:\visualStudio\SilverlightApplication\SilverlightApplication\Bin\Debug\SilverlightApplication.pdb
+D:\visualStudio\SilverlightApplication\SilverlightApplication\Bin\Debug\AppManifest.xaml
+D:\visualStudio\SilverlightApplication\SilverlightApplication\Bin\Debug\SilverlightApplication.xap
+D:\visualStudio\SilverlightApplication\SilverlightApplication\Bin\Debug\SilverlightApplicationTestPage.html
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\SilverlightApplication.csprojResolveAssemblyReference.cache
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\App.g.cs
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\MainPage.g.cs
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\SilverlightApplication.g.resources
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\SilverlightApplication.dll
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\SilverlightApplication.pdb
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\XapCacheFile.xml
+D:\visualStudio\SilverlightApplication\SilverlightApplication\obj\Debug\ChildWindow.g.cs

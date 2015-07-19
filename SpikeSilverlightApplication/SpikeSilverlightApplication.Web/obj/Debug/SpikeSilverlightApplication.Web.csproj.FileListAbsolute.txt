@@ -1,0 +1,5 @@
+D:\visualStudio\SpikeSilverlightApplication\SpikeSilverlightApplication.Web\bin\SpikeSilverlightApplication.Web.dll
+D:\visualStudio\SpikeSilverlightApplication\SpikeSilverlightApplication.Web\bin\SpikeSilverlightApplication.Web.pdb
+D:\visualStudio\SpikeSilverlightApplication\SpikeSilverlightApplication.Web\obj\Debug\SpikeSilverlightApplication.Web.dll
+D:\visualStudio\SpikeSilverlightApplication\SpikeSilverlightApplication.Web\obj\Debug\SpikeSilverlightApplication.Web.pdb
+D:\visualStudio\SpikeSilverlightApplication\SpikeSilverlightApplication.Web\obj\Debug\SpikeSilverlightApplication.Web.csprojResolveAssemblyReference.cache

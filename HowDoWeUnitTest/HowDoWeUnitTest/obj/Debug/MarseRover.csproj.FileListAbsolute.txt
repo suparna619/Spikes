@@ -1,0 +1,5 @@
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest\bin\Debug\HowDoWeUnitTest.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest\bin\Debug\HowDoWeUnitTest.pdb
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest\obj\Debug\MarseRover.csprojResolveAssemblyReference.cache
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest\obj\Debug\HowDoWeUnitTest.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest\obj\Debug\HowDoWeUnitTest.pdb

@@ -1,0 +1,9 @@
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\SpikeApp.Test.dll
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\SpikeApp.Test.pdb
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\spikeApp.exe
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\spikeApp.pdb
+D:\visualStudio\spikeApp\SpikeApp.Test\obj\Debug\SpikeApp.Test.csprojResolveAssemblyReference.cache
+D:\visualStudio\spikeApp\SpikeApp.Test\obj\Debug\SpikeApp.Test.dll
+D:\visualStudio\spikeApp\SpikeApp.Test\obj\Debug\SpikeApp.Test.pdb
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\nunit.framework.dll
+D:\visualStudio\spikeApp\SpikeApp.Test\bin\Debug\nunit.framework.xml

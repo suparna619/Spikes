@@ -1,0 +1,5 @@
+D:\visualStudio\Sorting\Sorting\bin\Debug\Sorting.pdb
+D:\visualStudio\Sorting\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache
+D:\visualStudio\Sorting\Sorting\obj\Debug\Sorting.pdb
+D:\visualStudio\Sorting\Sorting\bin\Debug\Sorting.exe
+D:\visualStudio\Sorting\Sorting\obj\Debug\Sorting.exe

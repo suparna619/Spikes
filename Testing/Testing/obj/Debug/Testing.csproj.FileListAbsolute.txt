@@ -1,0 +1,7 @@
+D:\visualStudio\Testing\Testing\bin\Debug\Testing.dll
+D:\visualStudio\Testing\Testing\bin\Debug\Testing.pdb
+D:\visualStudio\Testing\Testing\bin\Debug\nunit.framework.dll
+D:\visualStudio\Testing\Testing\bin\Debug\nunit.framework.xml
+D:\visualStudio\Testing\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
+D:\visualStudio\Testing\Testing\obj\Debug\Testing.dll
+D:\visualStudio\Testing\Testing\obj\Debug\Testing.pdb

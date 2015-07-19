@@ -1,0 +1,9 @@
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\HowDoWeUnitTest.Tests.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\HowDoWeUnitTest.Tests.pdb
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\HowDoWeUnitTest.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\nunit.framework.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\HowDoWeUnitTest.pdb
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\bin\Debug\nunit.framework.xml
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\obj\Debug\HowDoWeUnitTest.Tests.csprojResolveAssemblyReference.cache
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\obj\Debug\HowDoWeUnitTest.Tests.dll
+D:\visualStudio\HowDoWeUnitTest\HowDoWeUnitTest.Tests\obj\Debug\HowDoWeUnitTest.Tests.pdb

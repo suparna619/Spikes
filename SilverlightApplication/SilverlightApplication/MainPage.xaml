@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="SilverlightApplication.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="#FFD7D7E7">
+        <TextBlock HorizontalAlignment="Left" Margin="51,60,0,0" TextWrapping="Wrap" Text="Name : " VerticalAlignment="Top" Width="115"/>
+        <TextBox Name="NameBox" HorizontalAlignment="Left" Height="23" Margin="208,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:FieldModifier="private" />
+        <TextBlock HorizontalAlignment="Left" Margin="51,99,0,0" TextWrapping="Wrap" Text="Age : " VerticalAlignment="Top"/>
+        <TextBox Name="AgeBox" HorizontalAlignment="Left" Height="23" Margin="208,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="51,140,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top"/>
+        
+        <TextBox Name="Address1Box" HorizontalAlignment="Left" Height="23" Margin="208,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Address2Box" HorizontalAlignment="Left" Height="23" Margin="208,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Address3Box" HorizontalAlignment="Left" Height="23" Margin="208,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        
+        <Button Name="SaveButton" HorizontalAlignment="Left" Margin="253,234,0,0" VerticalAlignment="Top" Width="75" >
+            <HyperlinkButton Content="Save" Name="btn" IsTabStop="False" Click="Button_Save" Foreground="Black" BorderThickness="0"/>    
+        </Button>
+    </Grid>
+</UserControl>
