@@ -4,3 +4,4 @@ D:\visualStudio\spikeApp\spikeApp\bin\Debug\spikeApp.pdb
 D:\visualStudio\spikeApp\spikeApp\obj\Debug\spikeApp.csprojResolveAssemblyReference.cache
 D:\visualStudio\spikeApp\spikeApp\obj\Debug\spikeApp.exe
 D:\visualStudio\spikeApp\spikeApp\obj\Debug\spikeApp.pdb
+D:\cloned_spikes\Spikes\spikeApp\spikeApp\bin\Debug\spikeApp.exe.config
