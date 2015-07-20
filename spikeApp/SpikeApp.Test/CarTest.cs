@@ -10,6 +10,7 @@ namespace SpikeApp.Test
         public void ShouldCreateCar()
         {
             Assert.AreEqual(2,2);
+            Assert.AreNotEqual(2,4);
             
         }
     }
