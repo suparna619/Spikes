@@ -18,8 +18,8 @@ namespace Library
 
         public void RemoveBook(Books book)
         {
+            if (!bookRegister.Contains(book)) return;
             bookRegister.Remove(book);
         }
-        
     }
 }
