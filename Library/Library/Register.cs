@@ -15,7 +15,6 @@ namespace Library
         {
             bookRegister.Add(new Books(book.ID, book.Category, book.Name, book.Author));
         }
-
-
+        
     }
 }
