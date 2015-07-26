@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -24,10 +21,18 @@ namespace Library
 
         public bool HasBook(string bookName, string authorName)
         {
-            bool result = bookRegister.Any(book => book.Name == bookName && book.Author == authorName);
+            return bookRegister.Any(book => book.Name == bookName && book.Author == authorName);
+        }
 
-            return result;
+        public int CountTotalNumberOfBooksInLibrary()
+        {
+            return bookRegister.Count();
+        }
 
+        public int NumberOfCopiesOfBook(string bookName, string authorName)
+        {
+            var listOfCopies = bookRegister.Where(book => book.Name == bookName && book.Author == authorName);
+            return listOfCopies.Count();
         }
     }
 }
