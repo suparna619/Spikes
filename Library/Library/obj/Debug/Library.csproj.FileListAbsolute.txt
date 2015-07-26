@@ -1,1 +1,5 @@
 D:\Spikes\Library\Library\bin\Debug\Library.exe.config
+D:\Spikes\Library\Library\bin\Debug\Library.exe
+D:\Spikes\Library\Library\bin\Debug\Library.pdb
+D:\Spikes\Library\Library\obj\Debug\Library.exe
+D:\Spikes\Library\Library\obj\Debug\Library.pdb

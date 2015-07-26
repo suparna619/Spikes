@@ -1,0 +1,9 @@
+D:\Spikes\Library\LibraryTest\bin\Debug\LibraryTest.dll
+D:\Spikes\Library\LibraryTest\bin\Debug\LibraryTest.pdb
+D:\Spikes\Library\LibraryTest\bin\Debug\Library.exe
+D:\Spikes\Library\LibraryTest\bin\Debug\nunit.framework.dll
+D:\Spikes\Library\LibraryTest\bin\Debug\Library.pdb
+D:\Spikes\Library\LibraryTest\bin\Debug\nunit.framework.xml
+D:\Spikes\Library\LibraryTest\obj\Debug\LibraryTest.csprojResolveAssemblyReference.cache
+D:\Spikes\Library\LibraryTest\obj\Debug\LibraryTest.dll
+D:\Spikes\Library\LibraryTest\obj\Debug\LibraryTest.pdb
