@@ -26,13 +26,21 @@ namespace Library
 
         public int CountTotalNumberOfBooksInLibrary()
         {
-            return bookRegister.Count();
+            return bookRegister.Count;
         }
 
         public int NumberOfCopiesOfBook(string bookName, string authorName)
         {
-            var listOfCopies = bookRegister.Where(book => book.Name == bookName && book.Author == authorName);
-            return listOfCopies.Count();
+            var listOfCopies = new List<Books>();
+
+            bookRegister.ForEach(book =>
+            {
+                if (book.Name == bookName && book.Author == authorName)
+                {
+                    listOfCopies.Add(book);
+                }
+            });
+            return listOfCopies.Count;
         }
     }
 }
