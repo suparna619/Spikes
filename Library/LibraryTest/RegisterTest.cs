@@ -1,4 +1,5 @@
-﻿using Library;
+﻿using System.Configuration;
+using Library;
 using NUnit.Framework;
 
 
@@ -8,19 +9,19 @@ namespace LibraryTest
     class RegisterTest
     {
         private Register register;
-        private Books book1;
-        private Books book2;
+        private Book book1;
+        private Book book2;
 
         [SetUp]
         public void SetUp()
         {
             register = new Register();
-            book1 = new Books(101, "Drama", "Macbeth", "Shakespeare");
-            book2 = new Books(102, "Drama", "Macbeth", "Shakespeare");
+            book1 = new Book(101, "Macbeth", "Shakespeare");
+            book2 = new Book(102, "Macbeth", "Shakespeare");
         }
 
 
-        [Test]
+/*        [Test]
         public void AddBook_Should_Add_A_Book_Inside_Book_Register()
         {
             register.AddBook(book1);
@@ -45,6 +46,38 @@ namespace LibraryTest
             register.AddBook(book1);
             register.RemoveBook(book1);
             Assert.IsFalse(register.HasBook(book1.Name, book1.Author));
+        }*/
+
+
+/*        [Test]
+        public void BookIssue_Should_Be_Able_A_User_To_Have_A_Book()
+        {
+            register.AddBook(book1);
+            register.AddBook(book2);
+            var user1 = new User();
+            var requestedBookName = "Macbeth";
+            var requestedBookAuthor = "Shakespeare";
+            Assert.IsTrue(user1.IssuedBook);
+            
+        }*/
+
+        [Test]
+        public void Should_Be_Able_To_Check_If_A_Book_Is_Available()
+        {
+            register.AddBook(book1);
+            var hasBook = register.HasBook("Macbeth");
+            Assert.That(hasBook);
         }
+
+        [Test]
+        public void If_Book_Is_Available_User_Can_Issue_That()
+        {
+            register.AddBook(book1);
+            var IssueID1 = register.IssueBook("Macbeth");
+            var IssueID2 = register.IssueBook("Hamlet");
+            Assert.NotNull(IssueID1);
+            Assert.AreEqual(0, IssueID2);
+        }
+
     }
 }

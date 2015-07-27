@@ -5,42 +5,57 @@ namespace Library
 {
     public class Register
     {
-        private List<Books> bookRegister = new List<Books>();
+        private List<Book> allBooks = new List<Book>();
 
+        
+//        public void RemoveBook(Book book)
+//        {
+//            if (!bookRegister.Contains(book)) return;
+//            bookRegister.Remove(book);
+//        }
+//
+//        public bool HasBook(string bookName, string authorName)
+//        {
+//            return bookRegister.Any(book => book.Name == bookName && book.Author == authorName);
+//        }
+//
+//        public int CountTotalNumberOfBooksInLibrary()
+//        {
+//            return bookRegister.Count;
+//        }
+//
+//        public int NumberOfCopiesOfBook(string bookName)
+//        {
+//            var listOfCopies = new List<Book>();
+//
+//            allBooks.ForEach(book =>
+//            {
+//                if (book.Name.Equals(bookName))
+//                {
+//                    listOfCopies.Add(book);
+//                }
+//            });
+//            return listOfCopies.Count;
+//        }
 
-        public void AddBook(Books book)
+        public bool HasBook(string nameOfBook)
         {
-            bookRegister.Add(book);
+            return allBooks.Any(book => book.Name.Equals(nameOfBook));
         }
 
-        public void RemoveBook(Books book)
+        public void AddBook(Book book)
         {
-            if (!bookRegister.Contains(book)) return;
-            bookRegister.Remove(book);
+            allBooks.Add(book);
         }
 
-        public bool HasBook(string bookName, string authorName)
+        public int IssueBook(string bookName)
         {
-            return bookRegister.Any(book => book.Name == bookName && book.Author == authorName);
-        }
-
-        public int CountTotalNumberOfBooksInLibrary()
-        {
-            return bookRegister.Count;
-        }
-
-        public int NumberOfCopiesOfBook(string bookName, string authorName)
-        {
-            var listOfCopies = new List<Books>();
-
-            bookRegister.ForEach(book =>
+            if (HasBook(bookName))
             {
-                if (book.Name == bookName && book.Author == authorName)
-                {
-                    listOfCopies.Add(book);
-                }
-            });
-            return listOfCopies.Count;
+                var bookIssued = allBooks.FirstOrDefault(book => book.Name.Equals(bookName));
+                return bookIssued.Equals(null) ? 0 : bookIssued.ID;
+            }
+            else return 0;
         }
     }
 }
