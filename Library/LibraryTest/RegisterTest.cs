@@ -73,10 +73,10 @@ namespace LibraryTest
         public void If_Book_Is_Available_User_Can_Issue_That()
         {
             register.AddBook(book1);
-            var IssueID1 = register.IssueBook("Macbeth");
-            var IssueID2 = register.IssueBook("Hamlet");
-            Assert.NotNull(IssueID1);
-            Assert.AreEqual(0, IssueID2);
+            var issueId1 = register.IssueBook("Macbeth");
+            var issueId2 = register.IssueBook("Hamlet");
+            Assert.NotNull(issueId1);
+            Assert.AreEqual(0, issueId2);
         }
 
     }
